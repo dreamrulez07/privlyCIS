@@ -10,6 +10,7 @@ group :production do
   gem 'mysql2' # Comment out this line to use another Database type
 end
 
+# for development and testing
 group :development, :test do
   gem 'sqlite3'
 end
